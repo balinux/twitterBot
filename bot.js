@@ -11,7 +11,7 @@ var T = new twit({
 
 var stream = T.stream('statuses/filter', { track: 'balinux' })
  
-stream.on('tweet', function (tweet) {
+stream.on('retweeted_retweet', function (tweet) {
   console.log(tweet)
 })
 
