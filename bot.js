@@ -1,10 +1,10 @@
 let twit = require('twit');
 
 var T = new twit({
-  consumer_key:         'OiWMuaMhAeJiWxNjHCJQ',
-  consumer_secret:      '0A7oF9Tm3MyUNh5u1I9QZgigPcOPEcZwa7a36LLUY',
-  access_token:         '83818420-e1YGrC5O7VZyrBerSF8KWi0GfTEkN8eM8X69i6VQ',
-  access_token_secret:  'v5saVSMabFPFQFMIylJrE2C0mNpdG3fZyjKKssaIjHA',
+  consumer_key:         '',
+  consumer_secret:      '',
+  access_token:         '',
+  access_token_secret:  '',
   timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
 })
 
